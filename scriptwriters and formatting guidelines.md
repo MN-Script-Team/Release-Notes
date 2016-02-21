@@ -3,29 +3,53 @@
 Helpful information for copying/pasting in the release notes...
 ===
 
-*Built by Casey Love (@C-Love, Ramsey County)*
-*Built by Charles Clark (@senhorc, Hennepin County)*
-*Built by Charles Potter (@CDPotter, Anoka County)*
-*Built by Chris Johnson (@CJOHNS356, Olmsted County)*
-*Built by David Courtright (@courtrightd, St. Louis County)*
-*Built by Devonne Kent (@devonne01, Wright County)*
-*Built by Gay Sikkink (@GayS, Stearns County)*
-*Built by Ilse Ferris (@IlseFerris, Hennepin County)*
-*Built by Katie Martini (@KateiMartini, Washington County)*
-*Built by Kelly Hiestand (@khiestand, Wright County)*
-*Built by Laura Larson (@LaLarson, Goodhue County)*
-*Built by Mel Fox (@MelissaFox-Stearns, Stearns County)*
-*Built by Robert Fewins-Kalb (@RobertFewins-Kalb, Anoka County)*
-*Built by Tim Delong (@StormageddonDLOA, Stearns County)*
-*Built by Travis Farleigh (@Farleight, Carlton County)*
-*Built by Yang Lor (@Y-Lor-Y, Ramsey County)*
+
+#### DHS
+*Completed by Veronica Cary (@theVKC, DHS). Resolves issue #*
+
+#### Anoka County
+*Completed by Charles Potter (@CDPotter, Anoka County). Resolves issue #*
+*Completed by Robert Fewins-Kalb (@RobertFewins-Kalb, Anoka County). Resolves issue #*
+
+#### Carlton County
+*Completed by Travis Farleigh (@Farleight, Carlton County). Resolves issue #*
+
+#### Goodhue County
+*Completed by Laura Larson (@LaLarson, Goodhue County). Resolves issue #*
+
+#### Hennepin County
+*Completed by Charles Clark (@senhorc, Hennepin County). Resolves issue #*
+*Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #*
+
+#### Olmsted County
+*Completed by Chris Johnson (@CJOHNS356, Olmsted County). Resolves issue #*
+
+#### Ramsey County
+*Completed by Casey Love (@C-Love, Ramsey County). Resolves issue #*
+*Completed by Yang Lor (@Y-Lor-Y, Ramsey County). Resolves issue #*
+
+#### St. Louis County
+*Completed by David Courtright (@courtrightd, St. Louis County). Resolves issue #*
+
+#### Stearns County
+*Completed by Gay Sikkink (@GayS, Stearns County). Resolves issue #*
+*Completed by Mel Fox (@MelissaFox-Stearns, Stearns County). Resolves issue #*
+*Completed by Tim Delong (@StormageddonDLOA, Stearns County). Resolves issue #*
+
+#### Washington County
+*Completed by Katie Martini (@KateiMartini, Washington County). Resolves issue #*
+
+#### Wright County
+*Completed by Devonne Kent (@devonne01, Wright County). Resolves issue #*
+*Completed by Kelly Hiestand (@khiestand, Wright County). Resolves issue #*
+
 
 ---
 Format (this is a header)
 ===
 ### <Type> scripts
 **Script** <br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. *Built by William Riker (@example, Starfleet County). Resolves #1701.*
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. *Completed by William Riker (@example, Starfleet County). Resolves #1701.*
 
 **Script 2** <br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. *Built by Jean Valjean (@example, Paris County). Resolves #24601.*
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. *Completed by Jean Valjean (@example, Paris County). Resolves #24601.*
