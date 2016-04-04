@@ -18,6 +18,9 @@ Helpful information for copying/pasting in the release notes...
 *Completed by Charles Clark (@senhorc, Hennepin County). Resolves issue #*
 *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #*
 
+#### Le Sueur County
+*Completed by Ann Sunderman (@asunderman, Le Sueur County). Resolves issue #*
+
 #### Olmsted County
 *Completed by Chris Johnson (@CJOHNS356, Olmsted County). Resolves issue #*
 *Completed by Laura Larson (@LaLarson, Olmsted County). Resolves issue #*
