@@ -26,8 +26,8 @@ Helpful information for copying/pasting in the release notes...
 *Completed by Laura Larson (@LaLarson, Olmsted County). Resolves issue #*
 
 #### Ramsey County
+*Completed by Kenny Lee (@kennyasalee, Ramsey County). Resolves issue #2304.*
 *Completed by Casey Love (@C-Love, Ramsey County). Resolves issue #*
-*Completed by Yang Lor (@Y-Lor-Y, Ramsey County). Resolves issue #*
 *Completed by May Xiong (@mxiong1, Ramsey County). Resolves issue #*
 
 #### St. Louis County
