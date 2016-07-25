@@ -6,9 +6,9 @@ Helpful information for copying/pasting in the release notes...
 
 #### DHS
 *Completed by Veronica Cary (@theVKC, DHS). Resolves issue #*
+*Completed by Charles Potter (@CDPotter, DHS). Resolves issue #*
 
 #### Anoka County
-*Completed by Charles Potter (@CDPotter, Anoka County). Resolves issue #*
 *Completed by Robert Fewins-Kalb (@RobertFewins-Kalb, Anoka County). Resolves issue #*
 
 #### Carlton County
