@@ -31,11 +31,6 @@ Scripts retired in this release
 ===
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Functions Library (FuncLib) updates (for scriptwriters)
-===
-### Updated functions
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Other updates
 ===
 
@@ -48,15 +43,11 @@ Other updates
         <th>Scriptwriter Name</th>
         <th>Agency</th>
         <th>Commits (Scripts)</th>
-        <th>Commits (FuncLib)</th>
-        <th>Commits (Total)</th>
     </tr>
     <tr>
-        <td>Veronica Cary</td>
+        <td><b>Veronica Cary</b></td>
         <td>DHS</td>
         <td>0</td>
-        <td>0</td>
-        <td><b>0</b></td>
     </tr>
 </table>
 
