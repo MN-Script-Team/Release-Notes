@@ -24,7 +24,9 @@ Text
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Updates to existing scripts
 ===
-
+### NOTES SCRIPTS
+**LTC - TRANSFER PENALTY**
+Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
@@ -32,10 +34,9 @@ Scripts retired in this release
 ### BULK SCRIPTS
 **MAGI/NON-MAGI REPORT**
 Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Charles Potter (@cdpotter, DHS). Resolves issue #2447.*
+
 ===
-### NOTES SCRIPTS
-**LTC - TRANSFER PENALTY**
-Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Other updates
 ===
