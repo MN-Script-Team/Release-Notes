@@ -43,7 +43,7 @@ Other updates
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===
-### Contribution statistics ([day before previous release] to [day before current release])
+### Contribution statistics (07/25/2016 to 08/22/16)
 
 <table>
     <tr>
@@ -52,9 +52,11 @@ Other updates
         <th>Commits (FuncLib)</th>
     </tr>
     <tr>
-        <td><b>Charles Potter</b></td>
-        <td>DHS</td>
+        <td>Ilse Ferris</td>
+        <td>Hennepin County</td>
         <td>0</td>
+        <td>0</td>
+        <td><b>0</b></td>
     </tr>
 </table>
 
