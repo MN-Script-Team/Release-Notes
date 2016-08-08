@@ -28,6 +28,10 @@ Updates to existing scripts
 **LTC - TRANSFER PENALTY**
 Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
 
+### UTILITIES SCRIPTS
+**INFO**
+Updating contact information for Charles and Veronica. *Completed by Charles Potter (@cdpotter, DHS). Resolves issue #2444.*
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
 ===
