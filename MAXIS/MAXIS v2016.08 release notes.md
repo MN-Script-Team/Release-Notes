@@ -24,6 +24,10 @@ Text
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Updates to existing scripts
 ===
+### ACTIONS SCRIPTS
+**ABAWD BANKED MONTHS FIATER**
+Updated the script to account for cases that have the initial month coded as an "X" on the ABAWD tracking record. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2454.*
+
 ### NOTES SCRIPTS
 **LTC - TRANSFER PENALTY**
 Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
