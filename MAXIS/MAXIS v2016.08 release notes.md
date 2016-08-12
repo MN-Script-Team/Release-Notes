@@ -32,6 +32,9 @@ Updated the script to account for cases that have the initial month coded as an 
 **LTC - TRANSFER PENALTY**
 Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
 
+**OVERPAYMENT**
+Added a new dropdown to select if the claim can be collected (options are YES, NO, or N/A), and added a field for workers to enter calculations and explanations as to why or why not the claim is collectible. *Completed by Charles Potter (@cdpotter, DHS). Resolves issue #2452.*
+
 ### UTILITIES SCRIPTS
 **INFO**
 Updating contact information for Charles and Veronica. *Completed by Charles Potter (@cdpotter, DHS). Resolves issue #2444.*
