@@ -64,7 +64,9 @@ Per MNIT they do not want counties using this script to identify who is migratin
     <tr>
         <th>Scriptwriter Name</th>
         <th>Agency</th>
+        <th>Commits (MAXIS)</th>
         <th>Commits (FuncLib)</th>
+        <th>Commits (Total)</th>
     </tr>
     <tr>
         <td>Ilse Ferris</td>
