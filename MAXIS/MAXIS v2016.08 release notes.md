@@ -1,25 +1,10 @@
 About this release
 ===
-<<INFO ABOUT THE RELEASE WILL GO HERE>>
+Smaller release this month due to the change of hands. 
 
 BlueZone Scripts are automatically updated via GitHub, without requiring any changes to files installed locally for counties and agencies. If you appear to be missing some of these updates, consider re-installing your scripts. Contact Charles.Potter@state.mn.us with any additional questions.
 
 It is recommended that supervisors review these notes with staff. A PDF version of these notes is included below.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-New scripts
-===
-### CATEGORY
-**SCRIPT**
-Text
-
-**SCRIPT**
-Text
-
-===
-### CATEGORY
-**SCRIPT**
-Text
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Updates to existing scripts
@@ -72,10 +57,6 @@ Per MNIT they do not want counties using this script to identify who is migratin
 ===
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Other updates
-===
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===
 ### Contribution statistics (07/25/2016 to 08/22/16)
 
@@ -97,8 +78,7 @@ Other updates
         <td>DHS</td>
         <td>5</td>
         <td>0</td>
-        <td><b>0</b></td>
+        <td><b>5</b></td>
     </tr>
 </table>
 
-<i>* New scriptwriters this release</i>
