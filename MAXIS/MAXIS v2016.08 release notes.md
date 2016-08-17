@@ -38,7 +38,7 @@ Also fixed a bug to correctly multiply prospective hours for all jobs. *Complete
 Added GRH checkbox for users to select CSR, added ELIG/GRH navigation button to dialogs. Also updated date variables to global constants and footer month functions on the back end. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2453.*
 
 **LTC - TRANSFER PENALTY**
-Per MNIT they do not want counties using this script to identify who is migrating. As such we have been asked to remove the script. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
+Name of script had incorrect category name. Changed category name from NOTE to NOTES. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2441.*
 
 **OVERPAYMENT**
 Added a new dropdown to select if the claim can be collected (options are YES, NO, or N/A), and added a field for workers to enter calculations and explanations as to why or why not the claim is collectible. *Completed by Charles Potter (@cdpotter, DHS). Resolves issue #2452.*
