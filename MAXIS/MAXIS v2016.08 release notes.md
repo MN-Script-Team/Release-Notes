@@ -34,6 +34,9 @@ Fixed a bug for cases in which HH member has more than one job. The 1st job was 
 Also fixed a bug to correctly multiply prospective hours for all jobs. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2456.*
 
 ### NOTES SCRIPTS
+***APPROVED PROGRAMS***
+Interest was presented in keeping the excel functionality available for the banked months tracking. As such it won't be retired and the warning message box has been removed. *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2373.*
+
 **CSR**
 Added GRH checkbox for users to select CSR, added ELIG/GRH navigation button to dialogs. Also updated date variables to global constants and footer month functions on the back end. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolves issue #2453.*
 
