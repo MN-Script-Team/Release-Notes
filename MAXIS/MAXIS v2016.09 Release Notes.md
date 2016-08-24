@@ -28,6 +28,9 @@ Updates to existing scripts
 **ABAWD FSET EXEMPTION CHECK**
 Added gender dropdown list and mother/member number drop down list for baby born portion *Completed by Kenny Lee (@Kennyasalee, Ramsey County). Resolves issue #2450 & 2451.*
 
+**EXPEDITED SCREENING**
+Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charlse Potter (@CDPotter, DHS). Resolves issue #2464.*
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
 ===
@@ -45,6 +48,11 @@ Other updates
         <th>Scriptwriter Name</th>
         <th>Agency</th>
         <th>Commits (FuncLib)</th>
+    </tr>
+    <tr>
+        <td><b>Charles Potter</b></td>
+        <td>DHS</td>
+        <td>1</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
