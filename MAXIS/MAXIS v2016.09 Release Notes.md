@@ -46,6 +46,13 @@ Several enhancements to the script have been made. ABAWD month counting and filt
 - Cases where the report date is not coded as a counted ABAWD month on the ABAWD tracking record
 *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2479.*
 
+**CASE TRANSFER**
+A limiter has been added so that the script run time will be reduced if only a small number of cases need to be found. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2492.*
+
+### NAV
+**DAIL/WRIT**
+Script has been reworked so it no longer transmits off of the current panel/list allowing user to keep the case numbers they want to see in front of them to enter in the script if needed. *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2475.*
+
 ### NOTES
 **ABAWD FSET EXEMPTION CHECK**
 Added gender dropdown list and mother/member number drop down list for baby born portion *Completed by Kenny Lee (@Kennyasalee, Ramsey County). Resolves issue #2450 & 2451.*
@@ -64,6 +71,9 @@ Scripts retired in this release
 Other updates
 ===
 
+**10/16 Panel Changes**
+Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCHL Critical changes were made a priorty while none critical changes are being tackles as they arise. *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2485.*
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===
 ### Contribution statistics (8/22/16 to 9/25/16)
@@ -75,9 +85,14 @@ Other updates
         <th>Commits (MAXIS)</th>
     </tr>
     <tr>
+        <td><b>Casey Love</b></td>
+        <td>Ramsey</td>
+        <td>2</td>
+    </tr>
+    <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>2</td>
+        <td>11</td>
     </tr>
     <tr>
         <td><b>Ilse Ferris</b></td>
