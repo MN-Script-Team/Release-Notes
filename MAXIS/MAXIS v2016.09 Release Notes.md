@@ -57,8 +57,15 @@ Script has been reworked so it no longer transmits off of the current panel/list
 **ABAWD FSET EXEMPTION CHECK**
 Added gender dropdown list and mother/member number drop down list for baby born portion *Completed by Kenny Lee (@Kennyasalee, Ramsey County). Resolves issue #2450 & 2451.*
 
+**CAF**
+Added EMPS panel field to the CAF 1 dialog. This field will be auto-filled with the information for all HH members on the case. Also added EMPS, SANC and TIME navigation buttons, removed the WB ELIG navigation and updated the password check handling on the back end. 
+For Hennepin County and Ramsey County workers: a checkbox has been added "Sent MFIP financial orientation DVD to participant(s)." This check box will case note if a participant has been given a financial orientation DVD." *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2487.*
+
 **EXPEDITED SCREENING**
 Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2464.*
+
+**HRF**
+Added EMPS panel field to the main dialog. This field will be auto-filled with the information for all HH members on the case. Also added EMPS, SANC and TIME navigation buttons, update dates to global constants and updated the password check handling on the back end. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2498.*
 
 **MAIN MENU**
 removed outdated 'new' script indicators from the NOTES - MAIN MENU *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2474.*
@@ -97,7 +104,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>19</td>
+        <td>25</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
