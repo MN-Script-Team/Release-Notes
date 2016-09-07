@@ -25,6 +25,11 @@ Text
 Updates to existing scripts
 ===
 ### ACTIONS
+**ABAWD BANKED MONTHS FIATER**
+Adding new income types for actions scripts. New income types include:
+JOBS: T Training Program P Service Program R Rehab Program
+UNEA: 47 Counted Tribal Income 48 Trust Income 49 Non-Recurring Income > $60 per Quarter *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2496.*
+
 **ACCT UPDATER**
 Script will now warn users if unable to edit, it can update if there are more than 9 account panels. Also implemented some behind the scenes revamping including:
 - deleted extraneous dialog
@@ -34,6 +39,16 @@ Script will now warn users if unable to edit, it can update if there are more th
 
 **FSET SANCTION**
 Option added within the 'resolved sanction' option: If the recipient resolves their sanction prior to the sanction effective/imposed date, the case note reflects that the sanction was deleted, and the 'number of sanctions' field is cleared on STAT/WREG. The script has also moved from the MAIN ACTIONS menu to the ABAWD ACTIONS menu, and several functions and mandatory field criteria was updated on the back end. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2480.*
+
+**LTC SPOUSAL ALLOCATION FIATER**
+Adding new income types for actions scripts. New income types include:
+JOBS: T Training Program P Service Program R Rehab Program
+UNEA: 47 Counted Tribal Income 48 Trust Income 49 Non-Recurring Income > $60 per Quarter *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2496.*
+
+**NEW JOB REPORTED**
+Adding new income types for actions scripts. New income types include:
+JOBS: T Training Program P Service Program R Rehab Program
+UNEA: 47 Counted Tribal Income 48 Trust Income 49 Non-Recurring Income > $60 per Quarter *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2496.*
 
 ### BULK
 **BANKED MONTHS REPORT**
@@ -48,6 +63,24 @@ Several enhancements to the script have been made. ABAWD month counting and filt
 
 **CASE TRANSFER**
 A limiter has been added so that the script run time will be reduced if only a small number of cases need to be found. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2492.*
+
+### DAIL SCRUBBER
+**CITIZENSHIP VERIFIED**
+added option for user to navigate back to the dail. *Completed by Charles Clark (@Senhorc, Hennepin County). Resolved issue #2470.*
+
+**CSES DAIL SCRUBBER**
+Script will branch into two scripts for a bit while testing commences. New script will:
+
+Gathers DAIL messages and creates a spreadsheet to display and work with them
+Identify which UNEA panel each message is associated with
+Determines if SNAP or MFIP case and if HRF or REVW is due
+If SNAP active the case will look at SNAP ELIG to gather budget information
+If SNAP active, UNEA detail will be added to a new worksheet on Excel document
+Dialog will appear based on programs active. Workers will be able to add notes, sign case note, indicate if Excel sheet should remain open at end of script, and indicate if additional review is needed. IF SNAP is active and there is either a change in the amount of CS OR the income appears to exceed 130% FPG, the script will default to having the panels reviewed by worker.
+If SNAP case needs income reviewed, a dialog for each UNEA panel will ask worker if income needs adjusting (Yes/No only).
+IF MFIP, script will add worksheet to Excel document and then attempt to update UNEA upon worker confirmation.
+Case note! and close spreadsheet
+*Completed by Casey Love (@C-love, Ramsey County) and Veronica Cary (@theVKC DHS). Resolved Issue #1714.
 
 ### NAV
 **DAIL/WRIT**
@@ -94,12 +127,17 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td><b>Charles Clark</b></td>
+        <td>Hennepin</td>
         <td>2</td>
     </tr>
     <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>11</td>
+        <td>14</td>
     </tr>
     <tr>
         <td><b>Ilse Ferris</b></td>
@@ -110,6 +148,11 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
         <td><b>Kenny Lee</b></td>
         <td>Ramsey</td>
         <td>3</td>
+    </tr>
+        <tr>
+        <td><b>Veronica Cary</b></td>
+        <td>DHS</td>
+        <td>19</td>
     </tr>
 </table>
 
