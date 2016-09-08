@@ -94,6 +94,9 @@ Added gender dropdown list and mother/member number drop down list for baby born
 Added EMPS panel field to the CAF 1 dialog. This field will be auto-filled with the information for all HH members on the case. Also added EMPS, SANC and TIME navigation buttons, removed the WB ELIG navigation and updated the password check handling on the back end. 
 For Hennepin County and Ramsey County workers: a checkbox has been added "Sent MFIP financial orientation DVD to participant(s)." This check box will case note if a participant has been given a financial orientation DVD." *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2487.*
 
+**ES REFERRAL**
+Option to schedule or reschedule an ES appt, and added a field for vendor numbers in the dialog which will also appear in the case note. Also added handling for checking for users who have passworded out, and allows them to enter password and continue. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2504.*
+
 **EXPEDITED SCREENING**
 Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2464.*
 
@@ -103,9 +106,24 @@ Added EMPS panel field to the main dialog. This field will be auto-filled with t
 **MAIN MENU**
 removed outdated 'new' script indicators from the NOTES - MAIN MENU *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2474.*
 
+removed NOTES - MFIP SANCTION CURED as it is now incorporated into NOTES - MFIP SANCTION/DWP DISQUALIFICATION *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2506.*
+
+**MFIP SANCTION/DWP DISQUALIFICATION**
+Merged NOTES - MFIP SANCTION CURED into NOTES - MFIP SANCTION/DWP DISQUALIFICATION. Users will now select the action type (applying the sanction/disq. or cure sanction/disq.), then will be directed to the option selected. 
+
+The following options have been added to the 'applying the sanction/disq.' option: pre/post 60 selection option, pre/post 60 notes field to discuss pre/post 60 information and changed "no show to orientation" to "Failed to attend orientation" in the "type of sanction" droplist.
+
+The following options have been added to the 'cure sanction/disq' option: member number field, financial orientation information and good cause information fields; TIME, SANC and EMPS navigation buttons, and an option to TIKL for 6 months to evaluate mandatory vendor removal (if applicable). The TIKL will be created for the 1st day of the month of the 6th month (example TIKL created on 09/08/2016. TIKL will appear on: 03/01/2017. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2506 & 2507.*
+
+**MTAF**
+for Hennepin and Ramsey county users- added checkbox to case note that the MFIP financial orientation DVD has been sent (if checked). Also removed outdated password functionality. This was previously replaced with updated password functionality. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2505.*
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
 ===
+
+**NOTES - MFIP SANCTION CURED**
+MFIP SANCTION CURED has been retired as it is now incorporated into NOTES - MFIP SANCTION/DWP DISQUALIFICATION.  *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2506.*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Other updates
@@ -142,7 +160,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>25</td>
+        <td>36</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
