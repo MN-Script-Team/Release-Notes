@@ -64,6 +64,12 @@ Several enhancements to the script have been made. ABAWD month counting and filt
 **CASE TRANSFER**
 A limiter has been added so that the script run time will be reduced if only a small number of cases need to be found. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2492.*
 
+**MAIN MENUS**
+added third BULK Main Menu category, and renamed one of the existing categories. New categories are: BULK ACTIONS (previously BULK), ENHANCED LISTS (lists that contain logic, but not actions) and BULK LISTS (the name of this category did not change, but some of the scripts were moved to the ENHANCED LISTS category). *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2514.*
+
+**REVW/MONT CLOSURES**
+Updated HC reinstatement and new intake date to reflect the 4 month reinstatement period for all HC programs (not MAGI only). *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2503.*
+
 ### DAIL SCRUBBER
 **CITIZENSHIP VERIFIED**
 added option for user to navigate back to the dail. *Completed by Charles Clark (@Senhorc, Hennepin County). Resolved issue #2470.*
@@ -80,7 +86,9 @@ Dialog will appear based on programs active. Workers will be able to add notes, 
 If SNAP case needs income reviewed, a dialog for each UNEA panel will ask worker if income needs adjusting (Yes/No only).
 IF MFIP, script will add worksheet to Excel document and then attempt to update UNEA upon worker confirmation.
 Case note! and close spreadsheet
-*Completed by Casey Love (@C-love, Ramsey County) and Veronica Cary (@theVKC DHS). Resolved Issue #1714.
+*Completed by Casey Love (@C-love, Ramsey County) and Veronica Cary (@theVKC DHS). Resolved Issue #1714.*
+
+The script is now case noting correctly after reviewing UNEA panels. Added logic to check if it made it to note, and fixed typos in case note function call. *Completed by David Courtright (St Lluis County) Resolved Issue #2500.*
 
 ### NAV
 **DAIL/WRIT**
@@ -94,11 +102,20 @@ Added gender dropdown list and mother/member number drop down list for baby born
 Added EMPS panel field to the CAF 1 dialog. This field will be auto-filled with the information for all HH members on the case. Also added EMPS, SANC and TIME navigation buttons, removed the WB ELIG navigation and updated the password check handling on the back end. 
 For Hennepin County and Ramsey County workers: a checkbox has been added "Sent MFIP financial orientation DVD to participant(s)." This check box will case note if a participant has been given a financial orientation DVD." *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2487.*
 
+**COMBINED ANNUAL RENEWAL**
+The script has been updated to show what programs are being recertified in the case note. *Completed by Mel Fox (@MelissaFox-Stearns Stearns County). Resolved issue #2512*
+
 **ES REFERRAL**
 Option to schedule or reschedule an ES appt, and added a field for vendor numbers in the dialog which will also appear in the case note. Also added handling for checking for users who have passworded out, and allows them to enter password and continue. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2504.*
 
 **EXPEDITED SCREENING**
 Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2464.*
+
+**FOSTER CARE HCAPP** 
+Added fields for HHcomp and assets *Completed by Roy Walz (@RoyStearns, Stearns). Resolved issue #2509**
+
+***HCAPP***
+Added a Combo-box to choose the type of HCAPP that was received. *Completed by Roy Walz (@RoyStearns, Stearns). Resolved issue #2495**
 
 **HRF**
 Added EMPS panel field to the main dialog. This field will be auto-filled with the information for all HH members on the case. Also added EMPS, SANC and TIME navigation buttons, update dates to global constants and updated the password check handling on the back end. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2498.*
@@ -157,14 +174,29 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
         <td>DHS</td>
         <td>14</td>
     </tr>
+   <tr>
+        <td><b>David Courtright</b></td>
+        <td>St Louis</td>
+        <td>1</td>
+    </tr>
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>36</td>
+        <td>35</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
         <td>Ramsey</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td><b>Mel Fox</b></td>
+        <td>Stearns</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td><b>Roy Walz</b></td>
+        <td>Stearns</td>
         <td>3</td>
     </tr>
         <tr>
