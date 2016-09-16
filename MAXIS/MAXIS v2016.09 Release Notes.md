@@ -9,17 +9,18 @@ It is recommended that supervisors review these notes with staff. A PDF version 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 New scripts
 ===
-### CATEGORY
-**SCRIPT**
-Text
 
-**SCRIPT**
-Text
+### EXPEDITED SNAP REVIEW
+New script that creates an Excel spreadsheet to quickly identify cases on a caseload(s) that need to be reviewed for possible EXP SNAP processing from REPT/PND1 and REPT/PND2. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2510.*
 
-===
-### CATEGORY
-**SCRIPT**
-Text
+### DAIL
+**ES REFERRAL MISSING**
+ New functionality for DAIL Scrubber that will process PEPR Message - ES Referral Date Needed. Script will find the date on INFC/WORK and will update EMPS and Case Note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2528.*
+ 
+ **FINANCIAL ORIENTATION MISSING**
+ New functionality for the DAIL Scrubber for PEPR Messages about Financial Orientation Date Missing. Script will find a couple of dates that may be appropriate and allow user to chose or select their own date, then it will update EMPS and case note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2529.*
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Updates to existing scripts
@@ -111,6 +112,8 @@ Option to schedule or reschedule an ES appt, and added a field for vendor number
 **EXPEDITED SCREENING**
 Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2464.*
 
+Updated case note header to reflect if case is expedited SNAP or not. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2517.*
+
 **FOSTER CARE HCAPP** 
 Added fields for HHcomp and assets *Completed by Roy Walz (@RoyStearns, Stearns). Resolved issue #2509**
 
@@ -162,7 +165,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
-        <td>5</td>
+        <td>7</td>
     </tr>
     <tr>
         <td><b>Charles Clark</b></td>
@@ -182,7 +185,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>35</td>
+        <td>57</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
