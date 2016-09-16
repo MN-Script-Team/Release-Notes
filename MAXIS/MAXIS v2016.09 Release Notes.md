@@ -19,6 +19,14 @@ New script that creates an Excel spreadsheet to quickly identify cases on a case
  
  **FINANCIAL ORIENTATION MISSING**
  New functionality for the DAIL Scrubber for PEPR Messages about Financial Orientation Date Missing. Script will find a couple of dates that may be appropriate and allow user to chose or select their own date, then it will update EMPS and case note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2529.*
+ 
+ ### NOTES
+ **PARIS MATCH**
+ This is a script that case notes a PARIS match action. This can be used to case note if the match was resolved or if a notice was sent to the client. Worker also indicates the month of the match, Household member, State where the match occurred, the matched program, and the resolution code used. *Completed by Mel Fox (@MelissaFox-Stearns, Stearns County). Resolved issue #2412.*
+ 
+ ### NOTICES
+ **OUT OF STATE**
+ This script will generate a word doc notice for out of state inquiry. added button to main menu. **Completed by Kenny Lee (@kennyasalee, Ramsey County). Resolved issue #2053.*
 
 
 
@@ -109,6 +117,9 @@ The script has been updated to show what programs are being recertified in the c
 **ES REFERRAL**
 Option to schedule or reschedule an ES appt, and added a field for vendor numbers in the dialog which will also appear in the case note. Also added handling for checking for users who have passworded out, and allows them to enter password and continue. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2504.*
 
+**EVF RECEIVED**
+Updated dialog and do loop to be standardized (out of order, edit boxes larger than needed, changed order of elements in dialog), updated case note to include new variables from dialog, auto checked the TIKL checkbox and added logic for the checkbox to warn the user to uncheck it if no additional information is needed. Updated case note to reflect all changes, and made some of the case note fields populate only when additional information is needed. *Completed by Mel Fox (@MelissaFox-Stearns Stearns County) and Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2437.*
+
 **EXPEDITED SCREENING**
 Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2464.*
 
@@ -185,17 +196,17 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>57</td>
+        <td>58</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
         <td>Ramsey</td>
-        <td>3</td>
+        <td>8</td>
     </tr>
     <tr>
         <td><b>Mel Fox</b></td>
         <td>Stearns</td>
-        <td>2</td>
+        <td>3</td>
     </tr>
     <tr>
         <td><b>Roy Walz</b></td>
