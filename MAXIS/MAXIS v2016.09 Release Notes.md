@@ -10,8 +10,12 @@ It is recommended that supervisors review these notes with staff. A PDF version 
 New scripts
 ===
 
-### EXPEDITED SNAP REVIEW
+### BULK
+**EXPEDITED SNAP REVIEW**
 New script that creates an Excel spreadsheet to quickly identify cases on a caseload(s) that need to be reviewed for possible EXP SNAP processing from REPT/PND1 and REPT/PND2. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2510.*
+
+**SPENDDOWN REPORT**
+New script that will create an Excel spreadsheet listing information about cases that appear to have a spenddown in MAXIS. *Completed by Casey Love (@C-Love, Ramsey County). Resolved Issue #2523**
 
 ### DAIL
 **ES REFERRAL MISSING**
@@ -176,7 +180,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
-        <td>7</td>
+        <td>8</td>
     </tr>
     <tr>
         <td><b>Charles Clark</b></td>
