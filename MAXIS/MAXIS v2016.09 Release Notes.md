@@ -153,6 +153,9 @@ The following options have been added to the 'cure sanction/disq' option: member
 **MTAF**
 for Hennepin and Ramsey county users- added checkbox to case note that the MFIP financial orientation DVD has been sent (if checked). Also removed outdated password functionality. This was previously replaced with updated password functionality. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2505.*
 
+**SNAP E&T LETTER**
+Fixed a bug that was not allowing users to apply manual student option due to WREG coding restriction. Updated handling to allow the appropriate WREG coding for students (FSET code "12"). *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2538.*
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
 ===
@@ -200,7 +203,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>58</td>
+        <td>59</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
