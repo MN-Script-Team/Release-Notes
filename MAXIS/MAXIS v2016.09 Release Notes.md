@@ -43,6 +43,8 @@ Adding new income types for actions scripts. New income types include:
 JOBS: T Training Program P Service Program R Rehab Program
 UNEA: 47 Counted Tribal Income 48 Trust Income 49 Non-Recurring Income > $60 per Quarter *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2496.*
 
+BLIP: Added safeguard to disallow counties who are exempt from ABAWD work requirements to use this script. *Completed by Charles Potter (@CDPotter, DHS). Resolved issue #2497**
+
 **ACCT UPDATER**
 Script will now warn users if unable to edit, it can update if there are more than 9 account panels. Also implemented some behind the scenes revamping including:
 - deleted extraneous dialog
@@ -79,6 +81,9 @@ A limiter has been added so that the script run time will be reduced if only a s
 
 **MAIN MENUS**
 added third BULK Main Menu category, and renamed one of the existing categories. New categories are: BULK ACTIONS (previously BULK), ENHANCED LISTS (lists that contain logic, but not actions) and BULK LISTS (the name of this category did not change, but some of the scripts were moved to the ENHANCED LISTS category). *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2514.*
+
+**REVS SCRUBBER**
+he script was missing some cases when scheduling. Fixes the logic to make sure all cases are selected that should be. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2534.*
 
 **REVW/MONT CLOSURES**
 Updated HC reinstatement and new intake date to reflect the 4 month reinstatement period for all HC programs (not MAGI only). *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2503.*
@@ -153,8 +158,16 @@ The following options have been added to the 'cure sanction/disq' option: member
 **MTAF**
 for Hennepin and Ramsey county users- added checkbox to case note that the MFIP financial orientation DVD has been sent (if checked). Also removed outdated password functionality. This was previously replaced with updated password functionality. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2505.*
 
+### NOTES
+
+**NOMI**
+For Hennepin County users only - Fixed bug that would not allow the automatic TIKL on case where the application date is 60 days older than the NOMI date when sending the second NOMI. Also added handling to the automatic TIKL to unsure that cases that are being issued a NOMI between pending days 51-60 are allowed 10-day notice. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2543.*
+
 **SNAP E&T LETTER**
 Fixed a bug that was not allowing users to apply manual student option due to WREG coding restriction. Updated handling to allow the appropriate WREG coding for students (FSET code "12"). *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2538.*
+
+BLIP: Added safeguard to disallow counties who are exempt from ABAWD work requirements to use this script. *Completed by Charles Potter (@CDPotter, DHS). Resolved issue #2497**
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
@@ -170,6 +183,9 @@ Other updates
 **10/16 Panel Changes**
 Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCHL Critical changes were made a priorty while none critical changes are being tackles as they arise. *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2485.*
 
+**Adding SQL database option in global variables**
+Added boolean variable in order for agencies to determine if SQL is being used to collect their data. **Completed by Ilse Ferris (@@IlseFerris, Hennepin County). Resolved Issue #2540
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===
 ### Contribution statistics (8/22/16 to 9/25/16)
@@ -183,7 +199,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
-        <td>8</td>
+        <td>10</td>
     </tr>
     <tr>
         <td><b>Charles Clark</b></td>
@@ -193,7 +209,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>14</td>
+        <td>16</td>
     </tr>
    <tr>
         <td><b>David Courtright</b></td>
@@ -203,7 +219,7 @@ Scripts were updated to take into account the changes for 10/16 to JOBS/UNEA/SCH
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>59</td>
+        <td>61</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
