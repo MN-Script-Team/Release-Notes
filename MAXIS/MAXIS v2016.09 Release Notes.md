@@ -15,22 +15,22 @@ New scripts
 New script that creates an Excel spreadsheet to quickly identify cases on a caseload(s) that need to be reviewed for possible EXP SNAP processing from REPT/PND1 and REPT/PND2. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2510.*
 
 **SPENDDOWN REPORT**
-New script that will create an Excel spreadsheet listing information about cases that appear to have a spenddown in MAXIS. *Completed by Casey Love (@C-Love, Ramsey County). Resolved Issue #2523**
+New script that will create an Excel spreadsheet listing information about cases that appear to have a spenddown in MAXIS. *Completed by Casey Love (@C-Love, Ramsey County). Resolved Issue #2523*
 
 ### DAIL
 **ES REFERRAL MISSING**
- New functionality for DAIL Scrubber that will process PEPR Message - ES Referral Date Needed. Script will find the date on INFC/WORK and will update EMPS and Case Note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2528.*
+New functionality for DAIL Scrubber that will process PEPR Message - ES Referral Date Needed. Script will find the date on INFC/WORK and will update EMPS and Case Note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2528.*
  
  **FINANCIAL ORIENTATION MISSING**
- New functionality for the DAIL Scrubber for PEPR Messages about Financial Orientation Date Missing. Script will find a couple of dates that may be appropriate and allow user to chose or select their own date, then it will update EMPS and case note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2529.*
+New functionality for the DAIL Scrubber for PEPR Messages about Financial Orientation Date Missing. Script will find a couple of dates that may be appropriate and allow user to chose or select their own date, then it will update EMPS and case note the action. *Completed by Casey Love (@C-Love, Ramsey County). Resolved issue #2529.*
  
- ### NOTES
+### NOTES
  **PARIS MATCH**
- This is a script that case notes a PARIS match action. This can be used to case note if the match was resolved or if a notice was sent to the client. Worker also indicates the month of the match, Household member, State where the match occurred, the matched program, and the resolution code used. *Completed by Mel Fox (@MelissaFox-Stearns, Stearns County). Resolved issue #2412.*
+This is a script that case notes a PARIS match action. This can be used to case note if the match was resolved or if a notice was sent to the client. Worker also indicates the month of the match, Household member, State where the match occurred, the matched program, and the resolution code used. *Completed by Mel Fox (@MelissaFox-Stearns, Stearns County). Resolved issue #2412.*
  
- ### NOTICES
- **OUT OF STATE**
- This script will generate a word doc notice for out of state inquiry. added button to main menu. **Completed by Kenny Lee (@kennyasalee, Ramsey County). Resolved issue #2053.*
+### NOTICES
+**OUT OF STATE**
+This script will generate a word doc notice for out of state inquiry. added button to main menu. *Completed by Kenny Lee (@kennyasalee, Ramsey County). Resolved issue #2053.*
 
 
 
@@ -43,7 +43,10 @@ Adding new income types for actions scripts. New income types include:
 JOBS: T Training Program P Service Program R Rehab Program
 UNEA: 47 Counted Tribal Income 48 Trust Income 49 Non-Recurring Income > $60 per Quarter *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2496.*
 
-BLIP: Added safeguard to disallow counties who are exempt from ABAWD work requirements to use this script. *Completed by Charles Potter (@CDPotter, DHS). Resolved issue #2497**
+BLIP: Added safeguard to disallow counties who are exempt from ABAWD work requirements to use this script. *Completed by Charles Potter (@CDPotter, DHS). Resolved issue #2497*
+
+**ABAWD FSET Exemption Check**
+Script can now accurately handle memb panels where the age of the child is blank due to being under 1. *Completed by Charles Potter (@CDPotter, DHS). Resolved issue #2550*
 
 **ACCT UPDATER**
 Script will now warn users if unable to edit, it can update if there are more than 9 account panels. Also implemented some behind the scenes revamping including:
@@ -137,7 +140,7 @@ Updated case note header to reflect if case is expedited SNAP or not. *Completed
 **FOSTER CARE HCAPP** 
 Added fields for HHcomp and assets *Completed by Roy Walz (@RoyStearns, Stearns). Resolved issue #2509**
 
-***HCAPP***
+**HCAPP**
 Added a Combo-box to choose the type of HCAPP that was received. *Completed by Roy Walz (@RoyStearns, Stearns). Resolved issue #2495**
 
 **HRF**
@@ -158,7 +161,7 @@ The following options have been added to the 'cure sanction/disq' option: member
 **MTAF**
 for Hennepin and Ramsey county users- added checkbox to case note that the MFIP financial orientation DVD has been sent (if checked). Also removed outdated password functionality. This was previously replaced with updated password functionality. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2505.*
 
-### NOTES
+### NOTICES
 
 **NOMI**
 For Hennepin County users only - Fixed bug that would not allow the automatic TIKL on case where the application date is 60 days older than the NOMI date when sending the second NOMI. Also added handling to the automatic TIKL to unsure that cases that are being issued a NOMI between pending days 51-60 are allowed 10-day notice. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2543.*
@@ -209,7 +212,7 @@ Added boolean variable in order for agencies to determine if SQL is being used t
     <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>16</td>
+        <td>17</td>
     </tr>
    <tr>
         <td><b>David Courtright</b></td>
