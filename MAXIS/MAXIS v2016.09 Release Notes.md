@@ -1,6 +1,8 @@
 About this release
 ===
-<<INFO ABOUT THE RELEASE WILL GO HERE>>
+Few big changes this month. We are implementing a new CSES scrubber. For this first month when users run the dail scrubber on their CSES messages they can choose which one to use, however the older version will be retired for the next release. Please encourage people to use the new one so we can get feedback. The script is being changed to modernize it and give workers more agency over what is budgeted/counted as within the realm. 
+
+There is also a few new nifty BULK scripts (below) and the menu is being altered to better organize the bulk list scripts. 
 
 BlueZone Scripts are automatically updated via GitHub, without requiring any changes to files installed locally for counties and agencies. If you appear to be missing some of these updates, consider re-installing your scripts. Contact Charles.Potter@state.mn.us with any additional questions.
 
@@ -109,7 +111,7 @@ IF MFIP, script will add worksheet to Excel document and then attempt to update 
 Case note! and close spreadsheet
 *Completed by Casey Love (@C-love, Ramsey County) and Veronica Cary (@theVKC DHS). Resolved Issue #1714.*
 
-The script is now case noting correctly after reviewing UNEA panels. Added logic to check if it made it to note, and fixed typos in case note function call. *Completed by David Courtright (St Lluis County) Resolved Issue #2500.*
+The script is now case noting correctly after reviewing UNEA panels. Added logic to check if it made it to note, and fixed typos in case note function call. *Completed by David Courtright (St Louis County) Resolved Issue #2500.*
 
 ### NAV
 **DAIL/WRIT**
@@ -131,6 +133,9 @@ Option to schedule or reschedule an ES appt, and added a field for vendor number
 
 **EVF RECEIVED**
 Updated dialog and do loop to be standardized (out of order, edit boxes larger than needed, changed order of elements in dialog), updated case note to include new variables from dialog, auto checked the TIKL checkbox and added logic for the checkbox to warn the user to uncheck it if no additional information is needed. Updated case note to reflect all changes, and made some of the case note fields populate only when additional information is needed. *Completed by Mel Fox (@MelissaFox-Stearns Stearns County) and Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2437.*
+
+**EXPEDITED DETERMINATION**
+Fixed issue where the ABAWD explanation information does not carry over to case note. Also the reason for the expedited delay will case note whether or not the application is greater than 7 days or not. *Completed by Ilse Ferris (@IlseFerris, Hennepin County). Resolved issue #2553.*
 
 **EXPEDITED SCREENING**
 Script is now prepared for changes to shelter deduction standards effective 10/1/16 *Completed by Charles Potter (@CDPotter, DHS). Resolves issue #2464.*
@@ -222,7 +227,7 @@ Added boolean variable in order for agencies to determine if SQL is being used t
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>61</td>
+        <td>62</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
