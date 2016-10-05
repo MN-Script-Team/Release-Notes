@@ -9,6 +9,10 @@ It is recommended that supervisors review these notes with staff. A PDF version 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 New scripts
 ===
+### DAIL
+**WAGE MATCH SCRUBBER**
+This new script helps workers process WAGE DAILs. The script grabs quarterly earnings information from the match as well as earned income information for the case and presents that information in an organized dialog to the financial worker. The script does not update or case note anything, but it does save the financial worker time and improves the accuracy of transcribing earned income information from the matches. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2583*
+
 ### NOTES
 **GRH - NON-HRF-POSTPAY**
 Case note script that will screen into non-hrf GRH cases and process GRH post payment. *Completed by Kenny Lee (@kennyasalee from Ramsey County) Resolves Issue #1730 and #2205*
@@ -21,8 +25,15 @@ Case note script that will screen into non-hrf GRH cases and process GRH post pa
 Updates to existing scripts
 ===
 ### BULK
+**DAIL REPORT**
+The DAIL Report will now create a second worksheet in the Excel report that has counts for each worker's DAILs, including total DAILs and any of the DAIL types selected. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2574*
+
 **REVW/MONT CLOSURES**
 Adding logic to avoid case noting confusing lines about programs closing when those programs are not on the case. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2565*
+
+### DAIL
+**FINANCIAL ORIENTATION DATE MISSING**
+Fixing error which prevent the script from starting. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2581*
 
 ### NOTES
 **CSR**
@@ -62,12 +73,17 @@ Other updates
      <tr>
         <td><b>Robert Fewins-Kalb</b></td>
         <td>Anoka</td>
-        <td>5</td>
+        <td>9</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
         <td>Ramsey</td>
         <td>2</td>
+    </tr>
+     <tr>
+        <td><b>Casey Love</b></td>
+        <td>Ramsey</td>
+        <td>4</td>
     </tr>
     <tr>
         <td><b>Charles Potter</b></td>
