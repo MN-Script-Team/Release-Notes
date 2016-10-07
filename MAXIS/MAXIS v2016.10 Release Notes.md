@@ -9,6 +9,10 @@ It is recommended that supervisors review these notes with staff. A PDF version 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 New scripts
 ===
+### BULK
+**REPT-INTR**
+New Script that creates a report from REPT/INTR. Excel report generated with each item from INTR and a second worksheet with counts for each worker. Script includes the option to enter a supervisor X-Number and have all workers numbers listed under that supervisor checked. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2573*
+
 ### DAIL
 **WAGE MATCH SCRUBBER**
 This new script helps workers process WAGE DAILs. The script grabs quarterly earnings information from the match as well as earned income information for the case and presents that information in an organized dialog to the financial worker. The script does not update or case note anything, but it does save the financial worker time and improves the accuracy of transcribing earned income information from the matches. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2583*
@@ -83,7 +87,7 @@ Other updates
      <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
-        <td>4</td>
+        <td>9</td>
     </tr>
     <tr>
         <td><b>Charles Potter</b></td>
