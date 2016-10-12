@@ -9,6 +9,7 @@ It is recommended that supervisors review these notes with staff. A PDF version 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 New scripts
 ===
+
 ### BULK
 **REPT-INTR**
 New Script that creates a report from REPT/INTR. Excel report generated with each item from INTR and a second worksheet with counts for each worker. Script includes the option to enter a supervisor X-Number and have all workers numbers listed under that supervisor checked. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2573*
@@ -18,6 +19,9 @@ New Script that creates a report from REPT/INTR. Excel report generated with eac
 This new script helps workers process WAGE DAILs. The script grabs quarterly earnings information from the match as well as earned income information for the case and presents that information in an organized dialog to the financial worker. The script does not update or case note anything, but it does save the financial worker time and improves the accuracy of transcribing earned income information from the matches. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2583*
 
 ### NOTES
+**CASE DISCREPANCY**
+Template for case noting information about a case discrepancy. EX: MAXIS/MMIS Discrepancy, ELIG discrepancy, etc. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2617*
+
 **COUNTY BURIAL DETERMINATION**
 New script that will case note a decision made on a County Burial Application. This script works in conjunction with the enhancements to County Burial Application Script - reading information from the case note created from that script. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2585*
 
@@ -42,6 +46,11 @@ Fix to the script to handle if there is a case on the caseload(s) that have no r
 Adding logic to avoid case noting confusing lines about programs closing when those programs are not on the case. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2565*
 
 ### DAIL
+**CSES SCRUBBER**
+Will now case note the MEMB #, CS type, and the amount per person receiving CS. *Completed by Tim Delong (@StormageddonDLOA from Stearns County) Resolves Issue #2624*
+
+Corrects a bug that sometimes prevented the script from updating UNEA panels in the correct footer month. *Completed by David Courtright (@courtrightd from St Louis) Resolves Issue #2646*
+
 **FINANCIAL ORIENTATION DATE MISSING**
 Fixing error which prevent the script from starting. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2581*
 
@@ -51,6 +60,9 @@ Update to the script that will autofill date of death and asset information from
 
 **CSR**
 Now follows same logic as CAF, if the earned or unearned income fields have data entered the worker must input notes on income. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2551*
+
+**DENIED PROGRAMS**
+This enhancement makes the script check for an additional line for ADDITIONAL APP when checking PND2. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2642*
 
 **EXPEDITED SCREENING**
 Corrected 10/16 utility deduction amount. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2570*
@@ -86,15 +98,25 @@ Other updates
         <th>Agency</th>
         <th>Commits (FuncLib)</th>
     </tr>
+     <tr>
+        <td><b>David Courtright</b></td>
+        <td>St Louis</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td><b>Tim Delong</b></td>
+        <td>Stearns</td>
+        <td>1</td>
+    </tr>
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>3</td>
+        <td>8</td>
     </tr>
      <tr>
         <td><b>Robert Fewins-Kalb</b></td>
         <td>Anoka</td>
-        <td>9</td>
+        <td>10</td>
     </tr>
     <tr>
         <td><b>Kenny Lee</b></td>
