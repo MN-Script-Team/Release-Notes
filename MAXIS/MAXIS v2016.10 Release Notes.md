@@ -35,6 +35,10 @@ Case note script that will screen into non-hrf GRH cases and process GRH post pa
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Updates to existing scripts
 ===
+### ACTIONS
+**ABAWD BANKED MONTH FIATER**
+Adding two counties (Morrison and Pine) that are exempt from snap e&t to the list of exempt counties *Completed by Charles Potter (@CDPotter from DHS) Resolves Issue #2663*
+
 ### BULK
 **DAIL REPORT**
 The DAIL Report will now create a second worksheet in the Excel report that has counts for each worker's DAILs, including total DAILs and any of the DAIL types selected. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2574*
@@ -51,10 +55,15 @@ Will now case note the MEMB #, CS type, and the amount per person receiving CS. 
 
 Corrects a bug that sometimes prevented the script from updating UNEA panels in the correct footer month. *Completed by David Courtright (@courtrightd from St Louis) Resolves Issue #2646*
 
+This resolves a bug that was preventing the script from completing the case note on certain SNAP / MFIP combination households. *Completed by David Courtright (@courtrightd from St Louis) Resolves Issue #2666*
+
 **FINANCIAL ORIENTATION DATE MISSING**
 Fixing error which prevent the script from starting. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2581*
 
 ### NOTES
+**CAF**
+Several enhancements centered around the 'NOTES ON INCOME AND BUDGET" field: Moved the field closer to the other income fields, reordered income fields, updated error message text when the "NOTES ON INCOME AND BUDGET" field is not complete, and added trim function to ensure that users are entering information in this field. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2593*
+
 **COUNTY BURIAL APPLICATION**
 Update to the script that will autofill date of death and asset information from STAT. New fields for case noting additional detail including service type, place and amount. Place for contact person information. The script now has an option to create a Word Document with information about the application as much of this process happens outside of MAXIS. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2577*
 
@@ -73,9 +82,17 @@ Gave agencies the option to have verification's needed at the top or the bottom 
 **HC RENEWAL**
 Gave agencies the option to have verification's needed at the top or the bottom of the case note (Similar to option in CAF). *Completed by Roy Walz (@RoyStearns from Stearns County) Resolves Issue #2607*
 
+**MFIP SANCTION AND DWP DISQUALIFICATION**
+Added checkbox that will set a TIKL for each month of the six-month mandatory vendor period to remind workers to FIAT mandatory vendor info into ELIG results. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2596*
+
+**PARIS MATCH**
+Fixed bug that did not allow users to case note the information from the input dialogs. Also added more space for worker input in the dialog. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2598*
+
 ### NOTICES
 **SNAP E AND T LETTER**
 FOR HENNEPIN COUNTY USERS ONLY: removed date restriction for using the Somali language orientation, and updated verbiage on how users select this option. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2599*
+
+Adding two counties (Morrison and Pine) that are exempt from snap e&t to the list of exempt counties *Completed by Charles Potter (@CDPotter from DHS) Resolves Issue #2663*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
@@ -83,6 +100,12 @@ Scripts retired in this release
 ### NOTES
 **GRH - HRF**
 GRH program no longer uses HRF forms so script is being retired. *Completed by Charles Potter(@Cdpotter from DHS). Resolved #2514*
+
+**SNAP CASE REVIEW**
+Hennepin County specific script removed per Hennepin County. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2605*
+
+**SUBMIT CASE FOR SNAP REVIEW**
+Hennepin County specific script removed per Hennepin County. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2605*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Other updates
@@ -101,7 +124,7 @@ Other updates
      <tr>
         <td><b>David Courtright</b></td>
         <td>St Louis</td>
-        <td>1</td>
+        <td>3</td>
     </tr>
     <tr>
         <td><b>Tim Delong</b></td>
@@ -111,7 +134,7 @@ Other updates
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>8</td>
+        <td>18</td>
     </tr>
      <tr>
         <td><b>Robert Fewins-Kalb</b></td>
@@ -131,7 +154,7 @@ Other updates
     <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>3</td>
+        <td>5</td>
     </tr>
     <tr>
         <td><b>Roy Walz</b></td>
