@@ -37,11 +37,14 @@ Updates to existing scripts
 ===
 ### ACTIONS
 **ABAWD BANKED MONTH FIATER**
-Adding two counties (Morrison and Pine) that are exempt from snap e&t to the list of exempt counties *Completed by Charles Potter (@CDPotter from DHS) Resolves Issue #2663*
+Bug fixes to the script. The script will stop early in the run if the REVW date has not been entered and alert the worker to the reason for the error. The script also has a way to account for resources and handle adjusting the expedited status based on the information provided *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2491 & 2623*
 
 ### BULK
 **DAIL REPORT**
 The DAIL Report will now create a second worksheet in the Excel report that has counts for each worker's DAILs, including total DAILs and any of the DAIL types selected. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2574*
+
+**ES REFERRAL MISSING**
+Fixes a bug that prevented the script from updating EMPS *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2597*
 
 **SPENDDOWN REPORT**
 Fix to the script to handle if there is a case on the caseload(s) that have no review date entered and if the caseload(s) have no cases that have a spenddown listed *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2614*
@@ -73,6 +76,9 @@ Now follows same logic as CAF, if the earned or unearned income fields have data
 **DENIED PROGRAMS**
 This enhancement makes the script check for an additional line for ADDITIONAL APP when checking PND2. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2642*
 
+**EMERGENCY**
+For Hennepin and Ramsey County users testing only - added EGA screening functionality to provide basic EMER programs information based on general criteria such as meeting residency, crisis reason and last issuance period. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2624*
+
 **EXPEDITED SCREENING**
 Corrected 10/16 utility deduction amount. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2570*
 
@@ -91,8 +97,6 @@ Fixed bug that did not allow users to case note the information from the input d
 ### NOTICES
 **SNAP E AND T LETTER**
 FOR HENNEPIN COUNTY USERS ONLY: removed date restriction for using the Somali language orientation, and updated verbiage on how users select this option. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2599*
-
-Adding two counties (Morrison and Pine) that are exempt from snap e&t to the list of exempt counties *Completed by Charles Potter (@CDPotter from DHS) Resolves Issue #2663*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Scripts retired in this release
@@ -134,7 +138,7 @@ Other updates
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>18</td>
+        <td>22</td>
     </tr>
      <tr>
         <td><b>Robert Fewins-Kalb</b></td>
@@ -149,12 +153,12 @@ Other updates
      <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
-        <td>21</td>
+        <td>25</td>
     </tr>
     <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>5</td>
+        <td>3</td>
     </tr>
     <tr>
         <td><b>Roy Walz</b></td>
