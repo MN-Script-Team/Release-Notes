@@ -39,6 +39,9 @@ Updates to existing scripts
 **ABAWD BANKED MONTH FIATER**
 Bug fixes to the script. The script will stop early in the run if the REVW date has not been entered and alert the worker to the reason for the error. The script also has a way to account for resources and handle adjusting the expedited status based on the information provided *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2491 & 2623*
 
+**NEW JOB REPORTED**
+Added TIKL checkbox, cleaned up date variables and case note, created more space/lined up edit boxes in dialog, added check for password in do loop *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2612*
+
 ### BULK
 **DAIL REPORT**
 The DAIL Report will now create a second worksheet in the Excel report that has counts for each worker's DAILs, including total DAILs and any of the DAIL types selected. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2574*
@@ -52,6 +55,9 @@ Fix to the script to handle if there is a case on the caseload(s) that have no r
 **REVW/MONT CLOSURES**
 Adding logic to avoid case noting confusing lines about programs closing when those programs are not on the case. *Completed by Robert Fewins-Kalb (@RoberT-1000 from Anoka County) Resolves Issue #2565*
 
+**REVS SCRUBBER**
+Fixes a bug that causes an error at the end of the script run if no PRIV cases are found. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2662*
+
 ### DAIL
 **CSES SCRUBBER**
 Will now case note the MEMB #, CS type, and the amount per person receiving CS. *Completed by Tim Delong (@StormageddonDLOA from Stearns County) Resolves Issue #2624*
@@ -62,6 +68,12 @@ This resolves a bug that was preventing the script from completing the case note
 
 **FINANCIAL ORIENTATION DATE MISSING**
 Fixing error which prevent the script from starting. *Completed by Casey Love(@C-Love from Ramsey County) Resolves Issue #2581*
+
+**NEW HIRE**
+added CCA, ES, work number check boxes, added check for password in dialog do loop, removed msgboxes, added messages in script end procedure *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2612*
+
+**NEW HIRE NDNH**
+added CCA, ES, work number check boxes, added check for password in dialog do loop, removed msgboxes, added messages in script end procedure *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2612*
 
 ### NOTES
 **CAF**
@@ -138,7 +150,7 @@ Other updates
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>22</td>
+        <td>26</td>
     </tr>
      <tr>
         <td><b>Robert Fewins-Kalb</b></td>
@@ -153,7 +165,7 @@ Other updates
      <tr>
         <td><b>Casey Love</b></td>
         <td>Ramsey</td>
-        <td>25</td>
+        <td>26</td>
     </tr>
     <tr>
         <td><b>Charles Potter</b></td>
