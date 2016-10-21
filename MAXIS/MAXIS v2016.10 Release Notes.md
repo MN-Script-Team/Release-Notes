@@ -1,6 +1,8 @@
 About this release
 ===
-<<INFO ABOUT THE RELEASE WILL GO HERE>>
+Another busy month here in MAXIS script land. The big announcement is a wage match scrubber! This script will gather all of the information for a wage match and present it to the worker when they can then take actions needed. There is also a new script that will allow you to clone a case to an excel file where it can then be replicated infinitly using the training case creator. There's also a few other new scripts so please check out the notes. 
+
+We are also removing the older version of the CSES DAIL scrubber now that the new one has been confirmed working. This version was removed because it was causing problems with it's defintion of the realm (DHS will not be defining a realm) and less detailed case note. This new version will put the agency back in the workers hand which is what DHS staff wishes to see. 
 
 BlueZone Scripts are automatically updated via GitHub, without requiring any changes to files installed locally for counties and agencies. If you appear to be missing some of these updates, consider re-installing your scripts. Contact Charles.Potter@state.mn.us with any additional questions.
 
@@ -103,6 +105,8 @@ Gave agencies the option to have verification's needed at the top or the bottom 
 **MFIP SANCTION AND DWP DISQUALIFICATION**
 Added checkbox that will set a TIKL for each month of the six-month mandatory vendor period to remind workers to FIAT mandatory vendor info into ELIG results. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2596*
 
+updated script to include variable to determine 10 day cut off when applying a sanction, and the sanction type is "ES", "failed to attend orientation" or "minor mom truancy". *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2674*
+
 **PARIS MATCH**
 Fixed bug that did not allow users to case note the information from the input dialogs. Also added more space for worker input in the dialog. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2598*
 
@@ -122,10 +126,6 @@ Hennepin County specific script removed per Hennepin County. *Completed by Ilse 
 
 **SUBMIT CASE FOR SNAP REVIEW**
 Hennepin County specific script removed per Hennepin County. *Completed by Ilse Ferris (@IlseFerris from Hennepin County) Resolves Issue #2605*
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Other updates
-===
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===
@@ -150,7 +150,7 @@ Other updates
     <tr>
         <td><b>Ilse Ferris</b></td>
         <td>Hennepin</td>
-        <td>26</td>
+        <td>27</td>
     </tr>
      <tr>
         <td><b>Robert Fewins-Kalb</b></td>
@@ -170,7 +170,7 @@ Other updates
     <tr>
         <td><b>Charles Potter</b></td>
         <td>DHS</td>
-        <td>3</td>
+        <td>4</td>
     </tr>
     <tr>
         <td><b>Roy Walz</b></td>
